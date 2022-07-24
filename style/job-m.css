@@ -1,0 +1,41 @@
+.hud {
+	height: 55px;
+}
+
+
+.inst > DIV {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	padding: 10pt;
+}
+
+.giveup > DIV {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	padding: 10pt;
+}
+
+.unittable TEXTAREA {
+	height: calc(100% - 120px);
+}
+
+.unittable {
+	min-height: 25%;
+	max-width: calc(100% - 30px);
+	background-color: #EEEEEE;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	margin: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-table;
+}
+
+.unitimg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 30%;
+}

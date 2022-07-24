@@ -1,0 +1,113 @@
+ARTICLE {
+	padding: 15px;
+	width: calc(100% - 30px);
+	height: calc(100% - 170px);
+	overflow-y: auto;
+}
+
+.modal {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+A.btn {
+	font-size: 12pt;
+}
+
+INPUT[type="submit"] {
+	font-size: 15pt;
+}
+
+.modal > TABLE IFRAME {
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+	border: 0px solid;
+}
+
+.modal > DIV {
+	background-color: #FFFFFF;
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	padding: 10pt;
+}
+
+.modal > DIV.small {
+	width: 500px;
+	height: 220px;
+	margin-left: calc(50% - 250px);
+	margin-top: calc(25% - 110px);
+	text-align: justify;
+}
+
+.centered1 {
+	height: 150px;
+	width: 280px;
+	margin-top: -75px;
+	margin-left: -140px;
+}
+
+.centered2 {
+	width: 280px;
+	margin-left: -140px;
+	height: 290px;
+	margin-top: -145px;
+}
+
+INPUT[type="text"], INPUT[type="password"], INPUT[type="number"] {
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	font-family: "SegoeUI";
+	background-image: url(dropshadow.png);
+	background-repeat: repeat-x;
+	padding-left: 3px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 12pt;
+}
+
+.icobg {
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline;
+	opacity: 0.4;
+	width: 24px;
+	height: 24px;
+}
+
+.dataimgbutton {
+	width: 72px;
+	height: 95px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center top;
+	display: table-cell;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+.admincnt {
+	vertical-align: top;
+	max-height: calc(100% - 133px);
+	overflow-y: auto;
+}
+
+.joblist TR TH.sorted {
+	background-image: url(../images/arrow.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left center;
+	padding-left: 30px;
+}
+
+.signupform TR:nth-child(2) TD:nth-child(3) {
+	background-image: url(../images/eye.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left center;
+	width: 30px;
+}

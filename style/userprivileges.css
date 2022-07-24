@@ -1,0 +1,87 @@
+.userprivileges {
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+}
+
+.userprivileges TR:first-child TH {
+	color: #FFFFFF;
+}
+
+.userprivileges TR:first-child TH:nth-child(even) {
+	background: #333333 !important;
+}
+
+.userprivileges TR:first-child TH:nth-child(odd) {
+	background: #666666 !important;
+}
+
+.userprivileges TR TH:first-child {
+	text-align: left;
+	font-weight: normal;
+}
+
+.userprivileges TH, .userprivileges TD {
+	margin: 0px;
+	padding: 5px;
+}
+
+.userprivileges TR:nth-child(even) TH:first-child {
+	background: #FFFFFF;
+}
+
+.userprivileges TR:nth-child(odd) TH:first-child {
+	background: #EEEEEE;
+}
+
+
+
+.userprivileges TR:nth-child(2) TH:nth-child(odd) {
+	background: #FFFFFF;
+}
+
+.userprivileges TR:nth-child(2) TH:nth-child(even) {
+	background: #EEEEEE;
+}
+
+
+
+.userprivileges TR:nth-child(even) TD:nth-child(2) {
+	background: #EEFFEE;
+}
+
+.userprivileges TR:nth-child(odd) TD:nth-child(2) {
+	background: #CCFFCC;
+}
+
+.userprivileges TR:nth-child(even) TD:nth-child(3) {
+	background: #EEEEFF;
+}
+
+.userprivileges TR:nth-child(odd) TD:nth-child(3) {
+	background: #CCCCFF;
+}
+
+.userprivileges TR:nth-child(even) TD:nth-child(4) {
+	background: #FFDDCC;
+}
+
+.userprivileges TR:nth-child(odd) TD:nth-child(4) {
+	background: #FFCCAA;
+}
+
+.userprivileges TR:nth-child(even) TD:nth-child(5) {
+	background: #FFEEEE;
+}
+
+.userprivileges TR:nth-child(odd) TD:nth-child(5) {
+	background: #FFCCCC;
+}
+
+.userprivileges TD {
+	text-align: center;
+}
+
+.userprivileges IMG {
+	width: 32px;
+	height: 32px;
+}

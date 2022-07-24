@@ -1,0 +1,531 @@
+@font-face {
+    font-family: "SegoeUI";
+    src: url("segoe-ui-webfont.woff") format('woff');
+}
+
+HTML {
+	height: 100%;
+}
+
+BODY {
+	font-family: "SegoeUI";
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	-webkit-user-select: none;
+	user-select: none;
+	-moz-user-select: none;
+	background-color: #FFFFFF;
+	color: #000000;
+	overflow: hidden;
+}	
+
+H1, H2 {
+	font-weight: normal;
+	display: inline;
+}
+
+H2 {
+	font-size: 12pt;
+	color: #7F7F7F;
+}
+
+
+HEADER {
+	background: #EEEEEE;
+	border-bottom: 1px solid #CCCCCC;
+	height: 90px;
+}
+
+HEADER TABLE {
+	width: 100%;
+}
+
+HEADER TABLE {
+	height: 100%;
+}
+
+TD.logo {
+	background-image: url(../images/logo.png);
+	background-size: contain;
+	background-position: left center;
+	background-repeat: no-repeat;
+	cursor: ponter;
+	width: 90px;
+}
+
+.headerOverlay {
+	position: absolute;
+	left: 100px;
+	top: 0px;
+	height: 90px;
+	width: calc(100% - 300px);
+	display: table-cell;
+	vertical-align: bottom;
+	overflow-x: auto;
+	overflow-y: hidden
+}
+
+@media screen and (max-width: 873px){
+	.headerOverlay H1 {
+		font-size: 45px;
+	}
+
+	.headerOverlay SPAN {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 1069px) and (min-width: 874px) {
+	.headerOverlay H1 {
+		font-size: 52px;
+	}
+
+	.headerOverlay SPAN {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 1070px) {
+	.headerOverlay H1 {
+		font-size: 45px;
+	}
+
+	.headerOverlay SPAN {
+		font-size: 27px;
+	}
+}
+
+
+ARTICLE.full {
+	padding: 15px;
+	height: calc(100% - 30px);
+}
+
+
+TABLE.inst {
+	width: 100%;
+}
+
+
+TABLE.inst TD {
+	width: 100%;
+	font-size: 36pt;
+}
+
+
+ARTICLE.just {
+	text-align: justify;
+}
+
+ARTICLE.justemb {
+	padding: 15px;
+	width: calc(100% - 30px);
+	height: calc(100% - 30px);
+	overflow-y: auto;
+	text-align: justify;
+}
+
+
+.tqSensitive {
+	font-size: 9pt;
+	color: #777;
+}
+
+A.btn, INPUT[type="button"], INPUT[type="submit"] {
+	background-color: #000000;
+	border-radius: 5px;
+	padding: 5px;
+	color: #FFFFFF;
+	text-decoration: none;
+	border: 1px solid #FFFFFF;
+	font-family: "SegoeUI";
+	cursor: pointer;
+	
+	transition: background-color 0.5s, color 0.5s;
+	-webkit-transition: background-color 0.5s, color 0.5s;
+	-moz-transition: background-color 0.5s, color 0.5s;
+	-ms-transition: background-color 0.5s, color 0.5s;
+	
+	transition-timing-function: ease-in-out;
+	-webkit-transition-timing-function: ease-in-out;
+	-mos-transition-timing-function: ease-in-out;
+	-ms-transition-timing-function: ease-in-out;
+}
+
+A.btn.danger, INPUT[type="button"].danger, INPUT[type="submit"].danger {
+	background-color: #FF0000;
+}
+
+.fb {
+	background-color:  #4b67a1 !important;
+}
+
+B.danger {
+	color: #FF0000;
+}
+
+P.centered {
+	text-align: center;
+	height: auto;
+}
+
+INPUT[type="submit"][disabled], INPUT[type="submit"][disabled="disabled"], INPUT[type="submit"][disabled="true"]:hover {
+	background-color: #CCCCCC;
+	color: #7F7F7F;
+}
+
+INPUT[type="number"] {
+	width: 60px;
+	padding-left: 3px;
+}
+
+
+A.btn:hover, INPUT[type="submit"]:hover {
+	background: #FFFFFF;
+	border-radius: 5px;
+	padding: 5px;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #000000;
+}
+
+TD.btnContainer {
+	content-align: right;
+	text-align: right;
+	padding-right: 5px;
+	width: calc(100% - 90px);
+}
+
+IMG.il {
+	height: 70%;
+}
+
+A {
+	color: #007FFF;
+	text-decoration: none;
+}
+
+A:hover {
+	color: #FF7F00;
+}
+
+FOOTER {
+	border-top: 1px solid #000000;
+	background-color: #EEEEEE;
+	padding-top: 3pt;
+	padding-left: 10pt;
+	padding-right: 10pt;		
+	font-size: 10pt;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 32px;
+}
+
+FOOTER A {
+	padding-left: 5pt;
+	padding-right: 5pt;
+	font-size: 12pt;
+	color: #FFFFFF;
+}
+
+FOOTER A.btn {
+	border-top-left-radius: 0pt !important;
+	border-top-right-radius: 0pt !important;
+	border: 0px solid black;
+	background-color: #FFF !important;
+	color: #000 !important;
+}
+
+@media screen and (max-width: 1149px) {
+	FOOTER {
+		height: 45px !important;
+	}
+
+	FOOTER DIV.copy {
+		padding-top: 5px;
+		display: block;
+		text-align: left;
+		color: #FFFFFF !important;
+		padding-right: 30px;
+	}
+}
+
+
+@media screen and (min-width: 1150px) {
+	FOOTER DIV.copy {
+		display: inline-block;
+		text-align: right;
+		float: right;
+		color: #FFFFFF !important;
+		padding-right: 30px;
+	}
+}
+
+HR {
+	background: #EEEEEE;
+}
+
+.centered {
+	align: center;
+	position: relative;
+	width: 100%;
+	height: 70%;
+}
+
+.centered0 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: #EEEEEE;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.modal {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	-webkit-backface-visibility: hidden;
+	z-index: 99999;
+	left: 0px;
+	top: 0px;
+}
+
+.modal TABLE {
+	width: 100%;
+	height: 100%;
+}
+
+
+.modal TABLE TR:first-child {
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #CCCCCC;
+	height: 40px;
+}
+
+.modal TABLE TR:nth-child(2) {
+	height: calc(100% - 40px);
+}
+
+.icobg:hover {
+	opacity: 1;
+}
+
+TABLE.joblist {
+	border-radius: 5px;
+	box-shadow: #777 2px 1px 1px;
+	border: 1px solid #CCC;
+}
+
+TABLE.joblist, TABLE.joblist TR {
+	margin: 0px;
+	padding: 0px;	
+}
+
+TABLE.joblist TR TH {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+TABLE.joblist TH, TD {
+	margin: 0px;
+	padding: 5px;
+}
+
+TABLE.joblist TR TD {
+	cursor: default;
+}
+
+TABLE.joblist TD:nth-child(2):hover, TABLE.joblist TD:nth-child(3):hover {
+	background-color: #FFAF19 !important;
+	cursor: pointer;
+}
+
+TABLE.joblist TR:nth-child(odd) TD {
+	background-color: #EEEEEE;
+}
+
+TABLE.joblist TR:nth-child(even) TD {
+	background-color: #FFFFFF;
+}
+
+.clickable {border-bottom: 1px dashed #FF7F00;}
+
+.adminTabs {width: 100%; border-bottom: 1px solid #000000; height: 30px !important}
+
+NAV A {padding-left: 10px; padding-right: 10px; cursor: default; padding-top: 10px; padding-bottom: 10px; color: #7F7F7F; height: 30px !important}
+NAV A IMG {display: none}
+NAV A.active {background-color: black !important; color: white; border-top-left-radius: 5px; border-top-right-radius: 5px}
+NAV A.active IMG {display: inline}
+
+.subcontainer {
+	padding-left: 10pt;
+	padding-right: 10pt;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.warning {
+	background-color: #FFFFCC;
+	color: #000000;
+	border: 1px solid #FFFF00;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+	height: auto;
+}
+
+.expelnote {
+	background-color: #FFCCCC;
+	color: #000000;
+	border: 1px solid #FF8080;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.completenote {
+	background-color: #CCFFCC;
+	color: #000000;
+	border: 1px solid #00FF00;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.selected {
+	color: #008000;
+	font-weight: bold;
+}
+
+.infobox {
+	width: 300px;
+	word-wrap: break-word;
+	text-wrap: suppress;
+	text-align: justify;
+	font-size: 9pt;
+}
+
+.infobox:hover {
+	background-image: url(../images/closemini.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+#maxfilesize {
+	font-size: 9pt;
+}
+
+TEXTAREA {
+	width: 100%;
+	height: 80%;
+	border: 1px solid #CCCCCC;
+	resize: none;
+	font-family: Segoe UI;
+	font-size: 24px;
+	border-radius: 5px;
+	background-image: url(dropshadow.png);
+	background-repeat: repeat-x;
+	resize: none;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.image {
+	background-image: url(../images/image.png);
+}
+
+.sound {
+	background-image: url(../images/sound.png);
+}
+
+.video {
+	background-image: url(../images/video.png);	
+}
+
+.diSelect, .diSelect:hover {
+	background-color: #000 !important;
+	color: #FFF;
+	border: 1px dashed #000;
+}
+
+#dataimgbuttonparent {
+	text-align: center;
+}
+
+.image.diSelect {
+	background-image: url(../images/image-a.png);
+}
+
+.sound.diSelect {
+	background-image: url(../images/sound-a.png);
+}
+
+.video.diSelect {
+	background-image: url(../images/video-a.png);
+}
+
+.dataimgbutton:hover{
+	background-color: #FF7F00;
+}
+
+.modal DIV.small > H1 {
+	width: 100%;
+	text-align: center;
+}
+
+DIV[name=abacorpo]  > DIV {
+	padding-left: 15px;
+	padding-right: 5px;
+	padding-top: 5px;	
+}
+
+.btn.warning {
+	background: #FF7F00;
+}
+
+.guest > A {color: #FF7F00; font-style: italic}
+.lab > A {color: #FF0000; font-style: italic}
+.face > A {color: #00007F; font-weight: bold}
+.default > A {color: #007F00; font-weight: bold}
+.admin > A {color: #FF007F; font-weight: bold}
+
+.guest > A:hover, .lab > A:hover, .face > A:hover, .default > A:hover, .admin > A:hover {border-bottom: 1px dashed #000000}
+
+#userpic {
+	width: 60px;
+	height: 60px;
+	float: right;
+	background-size: contain;
+	margin-left: 5px
+}
+
+.labmodeContainer {
+	background: #CFDEF3;
+	border: 1px solid #00EECC;
+	width: 450px;
+	position: absolute;
+	left: 15px;
+	top: 105px;
+	text-align: center;
+	padding: 5pt;
+}
+
+
+.modal.inst IFRAME {
+	width: 100%;
+	height: calc(100% - 15px);
+	padding: 0px;
+	margin: 0px;
+	border: 0px solid;
+}
+
+.joblist TR TH.sorted.inv {
+	background-image: url(../images/down.png);
+}

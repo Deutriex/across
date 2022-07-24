@@ -1,0 +1,43 @@
+.hud {
+	height: 35px;
+}
+
+.inst > DIV {
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	padding: 10pt;
+}
+
+.giveup > DIV.small {
+	width: 600px !important;
+	height: 200px !important;
+	padding: 10pt;
+	margin-left: calc(50% - 300px) !important;
+	margin-top: calc(25% - 100px) !important;
+}
+
+.unittable TEXTAREA {
+	max-height: calc(100% - 20px);
+	min-height: calc(100% - 70px);
+}
+
+.unittable {
+	min-height: 25%;
+	max-width: 800px;
+	background-color: #EEEEEE;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	margin: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-table;
+}
+
+.unitimg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 30%;
+}

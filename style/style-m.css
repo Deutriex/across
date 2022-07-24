@@ -1,0 +1,200 @@
+ARTICLE {
+	padding: 15px;
+	width: calc(100% - 15px);
+	height: calc(100% - 90px);
+	overflow-y: auto;
+}
+
+.modal {
+	background-color: #FFFFFF;
+}
+
+.pradobtn {
+	height: 90px;
+	width: 90px;
+	background-image: url(../images/menu.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.pradoactive {
+	background-image: url(../images/menu-a.png);
+	background-color: #000000;
+}
+
+.pradomenu {
+	position: fixed;
+	left: 0px;
+	top: 90px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.85);
+	overflow-y: auto;
+	max-height: calc(100% - 90px);
+	-webkit-backface-visibility: hidden;
+	z-index: 109999;
+}
+
+.pradomenu DIV {
+	color: #FFFFFF;
+	display: block;
+	font-size: 40pt;
+	padding: 10pt;
+	border-bottom: 1px solid #7F7F7F;
+}
+
+BODY, TD, TH {font-size: 24pt}
+
+H1 {font-size: 55pt}
+H2 {font-size: 24pt}
+
+
+.modal IFRAME {
+	width: 100%;
+	height: 100%;
+	border: 0px solid;
+}
+
+.modal > TABLE DIV {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	padding: 10pt;
+	font-size: 18pt;
+}
+
+.modal > TABLE DIV.small {
+	width: 100%;
+	height: 100%;
+	text-align: justify;
+	font-size: 18pt;
+}
+
+A.btn {
+	font-size: 24pt;
+}
+
+INPUT[type="submit"] {
+	font-size: 30pt;
+}
+
+NAV A {font-size: 24pt}
+
+.centered1 {
+	height: 290px;
+	width: 500px;
+	margin-top: -50px;
+	margin-left: -250px;
+}
+
+@media screen and (max-height: 699px) {
+	.centered2 {
+		width: 100%;
+		margin-left: -50%;
+		height: calc(100% + 30px);
+		margin-top: -150px;
+	}
+
+	.centered2 > DIV:nth-child(2){
+		max-width: 400px;
+	}
+
+	.centered2 DIV[name=abacorpo] {
+		max-width: 400px;
+	}
+}
+
+
+@media screen and (min-height: 700px) {
+	.centered2 {
+		width: 500px;
+		margin-left: -250px;
+		height: 580px;
+		margin-top: -290px;
+	}
+}
+
+
+INPUT[type="text"], INPUT[type="password"], INPUT[type="number"] {
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	font-family: "SegoeUI";
+	background-image: url(dropshadow.png);
+	background-repeat: repeat-x;
+	padding-left: 3px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 24pt;
+	height: 60px;
+}
+
+.icobg {
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline;
+	opacity: 0.4;
+	width: 96px !important;
+	height: 96px !important;
+	transform: scale(2, 2);
+	-moz-transform: scale(2, 2);
+	-webkit-transform: scale(2, 2);
+	-ms-transform: scale(2, 2);
+}
+
+.dataimgbutton {
+	width: 72px;
+	height: 165px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: table-cell;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+.admincnt {
+	vertical-align: top;
+	max-height: calc(100% - 90px);
+	overflow-y: auto;
+}
+
+.joblist TR TH.sorted {
+	background-image: url(../images/arrow.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left center;
+	padding-left: 60px;
+}
+
+.signupform TD:nth-child(3) {
+	display: none;
+}
+
+INPUT[type=checkbox] {
+	transform: scale(3,3);
+	-ms-transform: scale(3,3);
+	-moz-transform: scale(3,3);
+	-webkit-transform: scale(3,3);
+}
+
+.spypass {
+	background-image: url(../images/eye.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left center;
+	padding-left: 50px;
+	width: 320px;
+}
+
+.spypass.sel {
+	background-image: url(../images/eye-a.png);
+	color: #FFFFFF;
+	background-color: #000000;
+	border-radius: 5px;
+}
